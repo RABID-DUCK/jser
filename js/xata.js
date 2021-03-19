@@ -49,11 +49,11 @@ function openModal(elem){
         col = document.createElement("div");
         col.classList.add("col");*/
     modalBody.innerHTML =`
-    <h5 class="modal-title" id="staticBackdropLabel" style="color: white;">${photos[id].address}</h5>
-    <p style="color: white;">${photos[id].district}</p>
-        <p style="color: white;">${photos[id].square}м<sup>2</sup></p>
-        <p style="color: white;">${photos[id].floor}/<span>${photos[id].numOfFloors} этаж</span></p>
-        <span style="color: white;">${photos[id].price} ₽/мес</span>
+    <h5 class="modal-title" id="staticBackdropLabel" style="color: #000033; font-weight: bold;  font-family: 'Cuprum';">${photos[id].address}</h5>
+    <p style="color: #000033; font-weight: bold; font-family: 'Cuprum';">${photos[id].district}</p>
+        <p style="color: #000033; font-weight: bold; font-family: 'Cuprum';">${photos[id].square}м<sup>2</sup></p>
+        <p style="color: #000033; font-weight: bold; font-family: 'Cuprum';">${photos[id].floor}/<span>${photos[id].numOfFloors} этаж</span></p>
+        <span style="color: #000033; font-weight: bold; font-family: 'Cuprum';">${photos[id].price} ₽/мес</span>
     <div class="card" data-id=${photos[id].numOfRooms}>
     
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

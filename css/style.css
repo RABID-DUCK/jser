@@ -19,8 +19,9 @@ h5{
     width: 400px !important;
 }
 .card-body{
-    background-color: antiquewhite;
+    background-color: rgb(255, 251, 247);
 }
 .modal-body{
-    background-color: rgb(99, 99, 99);
+    background-color: whitesmoke;
+   
 }
